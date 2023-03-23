@@ -42,21 +42,25 @@ img {
 button {
   cursor: pointer;
 }
-.container {
+/* .container {
   max-width: 1158px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+} */
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
-.section {
+/* .section {
   padding-bottom: 120px;
-}
+} */
 
 /*==== Header ==== */
-
+/* 
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -125,7 +129,7 @@ button {
 .adress-list:hover,
 .adress-list:focus {
   color: var(--backraund-btn-hover-color);
-}
+} */
 
 /*==== Section 1 ====*/
 
