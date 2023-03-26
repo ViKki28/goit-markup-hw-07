@@ -1,5 +1,24 @@
+/* Desktop */
+
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1128px;
+    width: 1158px;
   }
+
+  /* Header */
+
+  .page-header {
+    border-bottom: 1px solid var(--footer-text-color);
+  }
+  .logo {
+    margin-right: 76px;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  .current::after {
+    bottom: 2.5px;
+  }
+  /*  */
 }

@@ -1,5 +1,47 @@
-@media screen and (min-width: 768px) {
+/* Tablet */
+
+@media screen and (min-width: 780px) {
   .container {
-    width: 736px;
+    width: 768px;
+    padding-bottom: 18px;
   }
+
+  /* Header */
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: 120px;
+  }
+  .mobile-menu-open {
+    display: none;
+  }
+  [class*='aa-tablet'] {
+    display: block;
+  }
+  .adress {
+    display: flex;
+    margin-left: auto;
+  }
+  .adress-list {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secondary-title-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .mobile-menu {
+    display: none;
+  }
+
+  /* Section Hero 1 */
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+  }
+  /* Section 2 */
 }

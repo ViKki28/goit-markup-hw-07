@@ -45,13 +45,13 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="mobile-menu-open">
+        <button type="button" class="mobile-menu-open" data-menu-open>
           <svg class="mobile-menu-open-icon" width="32" height="22">
             <use href="./images/symbol-defs.svg#icon-1menu-hamburger"></use>
           </svg>
         </button>
         <address class="adress">
-          <ul class="menu list">
+          <ul class="menu list aa-tablet">
             <li class="menu-item-header">
               <a class="adress-list link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -65,22 +65,77 @@
           </ul>
         </address>
       </div>
+
+      <!-- Mobile Menu -->
+
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button type="button" class="mobile-close-btn" data-menu-close>
+            <svg class="icon-close-modal1" width="8" height="8">
+              <use href="./images/symbol-defs.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <div class="menu-item">
+            <ul>
+              <li><a class="link" href="./index.html"> Studio</a></li>
+              <li><a class="link" href="./portfolio.html"> Portfolio</a></li>
+              <li><a class="link" href="#"> Contacts</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+              <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            </ul>
+          <ul class="social-list-employees list">
+            <li class="employees">
+              <a href="" class="social-link link">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="employees">
+              <a href="" class="social-link link">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="employees">
+              <a href="" class="social-link link">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="employees">
+              <a href="" class="social-link link">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <!-- Main content -->
     <main>
       <!-- Section 1-->
-      <!-- 
+
       <section class="section-hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button class="modal-btn" type="button" data-modal-open>
           Order Service
         </button>
-      </section> -->
+      </section>
 
       <!-- section 2 -->
 
-      <!-- <section class="advantages section">
+      <section class="advantages section">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="menu list">
@@ -134,7 +189,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- section 3 -->
 
@@ -465,7 +520,7 @@
 
     <!-- MODAL -->
 
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="icon-close-modal1" width="8" height="8">
@@ -566,6 +621,8 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script> -->
+<script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
+    
   </body>
 </html>
