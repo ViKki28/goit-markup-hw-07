@@ -2,7 +2,8 @@
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
+    width: 100%;
   }
 
   /* Header */
@@ -20,5 +21,46 @@
   .current::after {
     bottom: 2.5px;
   }
-  /*  */
+  /* Section Hero 1 */
+  .section-hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-2x.jpg);
+    }
+    /* Section 2 */
+    .advantages {
+      padding-top: 120px;
+    }
+    .advantages-container {
+      display: flex;
+    }
+    .advantages-items {
+      background-color: var(--backraund-buttons-team);
+    }
+  }
+  .caption {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--main-title-color);
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .svg-icon {
+    display: none;
+  }
 }

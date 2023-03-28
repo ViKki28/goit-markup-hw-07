@@ -2,12 +2,20 @@
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 428px;
+    max-width: 428px;
     margin: 0 auto;
+    width: 100%;
   }
+  .tel-fons {
+    font-size: 36px;
+  }
+  .social-list-menu {
+    gap: 36px;
+  }
+  /* Hero section */
 
-  /* Section 2 */
-  .advantages-items {
-    display: none;
+  .hero-title {
+    font-size: 36px;
   }
+  /* Section 2 */
 }
