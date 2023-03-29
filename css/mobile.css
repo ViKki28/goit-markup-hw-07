@@ -12,10 +12,15 @@
   .social-list-menu {
     gap: 36px;
   }
+  .modal {
+    width: 408px;
+    height: 576px;
+  }
   /* Hero section */
 
   .hero-title {
     font-size: 36px;
   }
+
   /* Section 2 */
 }
