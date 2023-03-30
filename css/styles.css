@@ -397,6 +397,7 @@ button {
   width: 736px;
   height: 312px;
 }
+
 .advantages-container {
   display: flex;
   flex-direction: column;
@@ -404,10 +405,11 @@ button {
   padding-top: 96px;
 }
 .menu-item {
+  width: 100%;
   margin-bottom: 72px;
 }
 
-.menu-item:nth-child(2n) {
+.menu-item:nth-child(odd) {
   flex-wrap: wrap;
   margin-right: 24px;
 }
@@ -427,6 +429,8 @@ button {
   color: var(--secondary-title-color);
 }
 
+/* Section 3 */
+
 /*==== Section 4 ====*/
 
 .title {
@@ -435,11 +439,15 @@ button {
 }
 
 .section-team {
-  background: var(--backraund-buttons-team);
+  background-color: var(--backraund-buttons-team);
   padding-top: 96px;
 }
-
+.employees-tablet {
+  width: 100%;
+}
 .employees-card {
+  width: 264px;
+  height: auto;
   background: var(--hero-title-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
