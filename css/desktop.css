@@ -135,6 +135,8 @@
   }
   .footer-items {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
   }
   .web-footer {
     width: 264px;

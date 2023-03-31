@@ -170,6 +170,9 @@
     width: 165px;
     height: 40px;
   }
+  .aa-btn-form {
+    justify-content: none;
+  }
 }
 /* Від 0 до 1199 */
 @media screen and (max-width: 1199px) {

@@ -649,7 +649,7 @@ button {
 .aa-btn-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
 }
 .btn-form-footer {
