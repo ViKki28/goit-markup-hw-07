@@ -230,6 +230,7 @@ button {
     url(../images/hero-mobile-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -552,13 +553,20 @@ button {
   background: var(--main-title-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  display: flex;
-  flex-direction: row;
   margin-left: auto;
 }
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
 .web-footer {
-  width: 264px;
-  margin-right: 120px;
+  max-width: 264px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 72px;
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
@@ -566,9 +574,7 @@ button {
   font-size: 18px;
   line-height: 1.16;
   color: var(--focused-color);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  text-align: center;
 }
 .color-logo-footer {
   color: var(--backraund-buttons-team);
@@ -579,9 +585,6 @@ button {
   line-height: 1.5;
   color: var(--footer-text-color);
   padding-top: 16px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
 }
 .social-media {
   width: 208px;
@@ -593,10 +596,9 @@ button {
   line-height: 1.5;
   color: #ffffff;
   margin-bottom: 16px;
+  text-align: center;
 }
-.footer-items {
-  display: inline-flex;
-}
+
 .social-link-footer {
   display: flex;
   justify-content: center;
@@ -614,30 +616,27 @@ button {
 .social-icon {
   fill: currentColor;
 }
+/* .form-block {
+  width: 100%;
+} */
 .social-list-footer {
   margin: 0;
   display: flex;
   justify-content: center;
   gap: 16px;
+  margin-bottom: 72px;
 }
-.form-block {
-  display: border-box;
-  justify-content: center;
-  margin-left: 80px;
-}
-.btn-text {
-  display: flex;
-  justify-content: center;
-}
+
 .form-footer {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  width: 264px;
-  height: 40px;
+  width: 100%;
   background-color: var(--main-title-color);
   color: #ffffff;
   padding: 8px 16px;
+  max-width: 398px;
+  margin-bottom: 16px;
 }
 .form-footer::placeholder {
   font-weight: 400;
@@ -647,19 +646,24 @@ button {
 
   color: rgba(255, 255, 255, 0.6);
 }
-
+.aa-btn-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .btn-form-footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  width: 160px;
+  width: 100%;
+  max-width: 165px;
   height: 40px;
   background: var(--focused-color);
   border-color: transparent;
   border-radius: 4px;
-  margin-left: 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
