@@ -76,6 +76,11 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  /* Header */
+
+  .logo {
+    padding-top: 12px;
+  }
   /* Section 2 */
 
   .menu-item {
@@ -100,9 +105,23 @@
     justify-content: center;
   }
   .employees-card {
+    margin-bottom: 62px;
     display: grid;
     gap: 24px;
     flex-basis: calc((100% - 2 * 24px) / 2);
+  }
+  /* Section 5 */
+  .container-sm {
+    width: 582px;
+  }
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .customers-item {
+    width: calc((100% - 48px) / 3);
   }
 }
 /* Від 0 до 1199 */
@@ -116,5 +135,35 @@
   /* Section 3*/
   .duing {
     display: none;
+  }
+
+  /* Section 4 */
+  .employees-card {
+    padding-bottom: 32px;
+  }
+
+  .emp-foto {
+    width: 100%;
+  }
+  .caption-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+  .text-team {
+    margin-bottom: 8px;
+  }
+
+  /* Section 5 */
+
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    column-gap: 24px;
   }
 }

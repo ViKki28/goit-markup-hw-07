@@ -6,7 +6,8 @@
     /* width: 100%; */
   }
   /* .section {
-    max-width: 1440px;
+    width: 1128px;
+    align-items: center;
   } */
 
   /* Header */
@@ -43,6 +44,9 @@
         ),
         url(../images/people-2x.jpg);
     }
+  }
+  .modal {
+    top: 50%;
   }
 
   /* Section 2 */
@@ -82,12 +86,6 @@
     margin-right: 24px;
   }
 
-  /* Section 4 */
-
-  .section-team {
-    padding-top: 120px;
-  }
-
   /*==== Section 3 ====*/
 
   .title {
@@ -100,11 +98,36 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
   }
+
+  /* Section 4 */
+
+  .section-team {
+    padding-top: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+  }
+  .text-team {
+    margin-top: 8px;
+    margin-bottom: 32px;
+  }
+
+  .social-list-employees {
+    margin: 8px 16px 32px 16px;
+  }
   /* Section 4 */
   .employees-card:not(:nth-child(4n)) {
     margin-right: 24px;
   }
-}
 
-@media screen and (min-width: 1200px) {
+  /* Section 5 */
+  /* .customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 72px;
+  } */
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }

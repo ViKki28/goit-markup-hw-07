@@ -20,6 +20,12 @@
   .hero-title {
     font-size: 36px;
   }
+
+  /* Section 4 */
+  .section-team {
+    padding-right: 82px;
+    padding-left: 82px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -28,6 +34,12 @@
     text-align: center;
   }
   /* Section 4 */
-  .section-team {
+
+  .employees-card {
+    width: 100%;
+  }
+
+  .text-team {
+    margin-bottom: 8px;
   }
 }

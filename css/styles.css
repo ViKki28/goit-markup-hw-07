@@ -437,6 +437,10 @@ button {
   margin-bottom: 72px;
   text-align: center;
 }
+.section-team {
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
 .section-team {
   background-color: var(--backraund-buttons-team);
@@ -446,8 +450,6 @@ button {
   width: 100%;
 }
 .employees-card {
-  width: 264px;
-  height: auto;
   background: var(--hero-title-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -456,11 +458,10 @@ button {
 }
 
 .text-team {
-  margin-top: 8px;
-  margin-bottom: 32px;
   text-align: center;
 }
 .caption-team {
+  margin-bottom: 8px;
   margin-top: 32px;
   text-align: center;
 }
@@ -469,11 +470,8 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin: 8px 16px 32px 16px;
 }
-.emp-foto {
-  position: center;
-}
+
 .employees {
   width: 40px;
   height: 40px;
@@ -495,7 +493,14 @@ button {
 /* Section 5 */
 
 .customers {
-  padding-top: 130px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+/* .container-sm {
+  width: 396px;
+} */
+.customers-item {
+  width: calc((100% - 32px) / 3);
 }
 
 .caption-customers {
@@ -700,7 +705,7 @@ button {
 .modal {
   position: absolute;
   padding: 72px 24px 24px 24px;
-  top: 25%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: calc(250ms);
