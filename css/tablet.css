@@ -95,9 +95,6 @@
 
   /* Section 4 */
 
-  .section-team {
-    width: 800px;
-  }
   .menu-tablet {
     display: flex;
     flex-wrap: wrap;
