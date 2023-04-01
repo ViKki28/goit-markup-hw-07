@@ -15,6 +15,7 @@
     width: 392px;
     height: auto;
   }
+
   /* Hero section */
 
   .hero-title {
@@ -22,6 +23,7 @@
   }
 
   /* Section 4 */
+
   .section-team {
     padding-right: 82px;
     padding-left: 82px;
@@ -30,15 +32,16 @@
 
 @media screen and (max-width: 767px) {
   /* Section 2 */
+
   .caption {
     text-align: center;
   }
+
   /* Section 4 */
 
   .employees-card {
     width: 100%;
   }
-
   .text-team {
     margin-bottom: 8px;
   }

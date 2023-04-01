@@ -4,7 +4,6 @@
 .link {
   text-decoration: none;
 }
-
 :root {
   --main-title-color: #2e2f42;
   --secondary-title-color: #434455;
@@ -44,7 +43,6 @@ button {
 }
 
 .section {
-  /* padding-bottom: 96px; */
   background-size: cover;
 }
 
@@ -79,7 +77,6 @@ button {
 .adress {
   display: none;
 }
-
 .menu-link {
   position: relative;
   font-weight: 500;
@@ -92,7 +89,6 @@ button {
 .menu-item-header:not(:last-child) {
   margin-right: 40px;
 }
-
 .current::after {
   position: absolute;
   display: block;
@@ -104,12 +100,10 @@ button {
   left: 0;
   width: 100%;
 }
-
 .menu-link:hover,
 .menu-link:focus {
   color: var(--backraund-btn-hover-color);
 }
-
 .adress-list:hover,
 .adress-list:focus {
   color: var(--backraund-btn-hover-color);
@@ -213,10 +207,10 @@ button {
   gap: 32px;
   margin-top: 44px;
 }
-
 .current-m {
   color: var(--focused-color);
 }
+
 /*==== Section 1 ====*/
 
 .section-hero {
@@ -254,7 +248,6 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
 }
-
 .modal-btn {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -286,7 +279,6 @@ button {
 .menu-item-service:not(:nth-child(5n)) {
   margin-right: 24px;
 }
-
 .text-services {
   display: flex;
   flex-direction: column;
@@ -299,6 +291,7 @@ button {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 /* ----- */
 
 .services-item {
@@ -398,7 +391,6 @@ button {
   width: 736px;
   height: 312px;
 }
-
 .advantages-container {
   display: flex;
   flex-direction: column;
@@ -409,12 +401,10 @@ button {
   width: 100%;
   margin-bottom: 72px;
 }
-
 .menu-item:nth-child(odd) {
   flex-wrap: wrap;
   margin-right: 24px;
 }
-
 .caption {
   align-self: stretch;
   font-weight: 700;
@@ -430,8 +420,6 @@ button {
   color: var(--secondary-title-color);
 }
 
-/* Section 3 */
-
 /*==== Section 4 ====*/
 
 .title {
@@ -442,7 +430,6 @@ button {
   padding-right: 20px;
   padding-left: 20px;
 }
-
 .section-team {
   background-color: var(--backraund-buttons-team);
   padding-top: 96px;
@@ -457,7 +444,6 @@ button {
   border-radius: 0px 0px 4px 4px;
   border-top: 0;
 }
-
 .text-team {
   text-align: center;
 }
@@ -466,13 +452,11 @@ button {
   margin-top: 32px;
   text-align: center;
 }
-
 .social-list-employees {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-
 .employees {
   width: 40px;
   height: 40px;
@@ -497,13 +481,9 @@ button {
   padding-top: 96px;
   padding-bottom: 96px;
 }
-/* .container-sm {
-  width: 396px;
-} */
 .customers-item {
   width: calc((100% - 32px) / 3);
 }
-
 .caption-customers {
   font-size: 36px;
   line-height: 40px;
@@ -522,7 +502,6 @@ button {
   width: 168px;
   height: 88px;
 }
-
 .customers-link {
   display: flex;
   justify-content: center;
@@ -551,8 +530,8 @@ button {
 
 .footer {
   background: var(--main-title-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   margin-left: auto;
 }
 .footer-items {
@@ -579,7 +558,6 @@ button {
 .color-logo-footer {
   color: var(--backraund-buttons-team);
 }
-
 .text-footer {
   font-size: 16px;
   line-height: 1.5;
@@ -598,7 +576,6 @@ button {
   margin-bottom: 16px;
   text-align: center;
 }
-
 .social-link-footer {
   display: flex;
   justify-content: center;
@@ -616,9 +593,6 @@ button {
 .social-icon {
   fill: currentColor;
 }
-/* .form-block {
-  width: 100%;
-} */
 .social-list-footer {
   margin: 0;
   display: flex;
@@ -626,7 +600,6 @@ button {
   gap: 16px;
   margin-bottom: 72px;
 }
-
 .form-footer {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -635,7 +608,7 @@ button {
   background-color: var(--main-title-color);
   color: #ffffff;
   padding: 8px 16px;
-  max-width: 398px;
+  width: 398px;
   margin-bottom: 16px;
 }
 .form-footer::placeholder {
@@ -666,7 +639,6 @@ button {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .button-form-text {
   font-weight: 500;
   font-size: 16px;
@@ -744,7 +716,9 @@ button {
 .modal-close-btn:focus .icon-close-modal1 {
   fill: var(--hero-title-color);
 }
+
 /* MODAL TITLE */
+
 .modal-title {
   font-weight: 500;
   font-size: 16px;

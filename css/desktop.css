@@ -3,12 +3,7 @@
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1158px;
-    /* width: 100%; */
   }
-  /* .section {
-    width: 1128px;
-    align-items: center;
-  } */
 
   /* Header */
 
@@ -25,7 +20,9 @@
   .current::after {
     bottom: 2.5px;
   }
+
   /* Section Hero 1 */
+
   .section-hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -33,7 +30,6 @@
       ),
       url(../images/people.jpg);
   }
-
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -110,15 +106,12 @@
     margin-top: 8px;
     margin-bottom: 32px;
   }
-
-  .social-list-employees {
-    margin: 8px 16px 32px 16px;
-  }
-  /* Section 4 */
   .employees-card:not(:nth-child(4n)) {
     margin-right: 24px;
   }
-
+  .social-list-employees {
+    margin: 8px 16px 32px 16px;
+  }
   /* Section 5 */
 
   .customers {
@@ -134,8 +127,9 @@
     flex-direction: row;
   }
   .footer-items {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
+    justify-content: center;
     align-items: flex-start;
   }
   .web-footer {
@@ -157,9 +151,7 @@
   .text-footer-media {
     text-align: start;
   }
-  .footer-items {
-    display: inline-flex;
-  }
+
   .social-list-footer {
     margin: 0;
     display: flex;
