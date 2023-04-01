@@ -11,9 +11,14 @@
   .social-list-menu {
     gap: 36px;
   }
+  /* Modal */
+
   .modal {
     width: 392px;
     height: auto;
+  }
+  .form-label-checkbox {
+    font-size: 12px;
   }
 
   /* Hero section */
@@ -27,6 +32,10 @@
   .section-team {
     padding-right: 82px;
     padding-left: 82px;
+  }
+  /* Footer */
+  .form-footer {
+    width: 398px;
   }
 }
 

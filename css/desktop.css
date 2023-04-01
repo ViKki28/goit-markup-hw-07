@@ -20,6 +20,13 @@
   .current::after {
     bottom: 2.5px;
   }
+  .adress-list {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secondary-title-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
   /* Section Hero 1 */
 
@@ -29,6 +36,8 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people.jpg);
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -64,6 +73,11 @@
     padding-top: 24px;
     padding-bottom: 24px;
     margin-bottom: 8px;
+  }
+  .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
   }
 
   .caption {
@@ -109,6 +123,9 @@
   .social-list-employees {
     margin: 8px 16px 32px 16px;
   }
+  .menu-item {
+    margin-bottom: 96px;
+  }
   /* Section 5 */
 
   .customers {
@@ -122,6 +139,7 @@
     background: var(--main-title-color);
     display: flex;
     flex-direction: row;
+    padding-bottom: 0;
   }
   .footer-items {
     display: inline-flex;
