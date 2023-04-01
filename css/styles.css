@@ -681,11 +681,11 @@ button {
 .modal {
   position: absolute;
   padding: 72px 24px 24px 24px;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: calc(250ms);
-  width: 310px;
+  width: 319px;
   height: auto;
   background-color: rgba(255, 255, 255);
 }
