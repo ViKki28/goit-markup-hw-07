@@ -681,7 +681,7 @@ button {
 .modal {
   position: absolute;
   padding: 72px 24px 24px 24px;
-  top: 25%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: calc(250ms);
