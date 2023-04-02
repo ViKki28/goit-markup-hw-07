@@ -3,7 +3,7 @@
 @media screen and (min-width: 480px) {
   .container {
     max-width: 396px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   .tel-fons {
     font-size: 34px;
@@ -29,10 +29,6 @@
 
   /* Section 4 */
 
-  .section-team {
-    padding-right: 82px;
-    padding-left: 82px;
-  }
   /* Footer */
   .form-footer {
     width: 398px;
@@ -45,8 +41,18 @@
   .caption {
     text-align: center;
   }
+  .menu-item {
+    width: 100%;
+  }
+  .menu-item:not(:nth-child(4n)) {
+    margin-bottom: 72px;
+  }
 
   /* Section 4 */
+  /* .section-team {
+    padding-right: 82px;
+    padding-left: 82px;
+  } */
 
   .employees-card {
     width: 100%;

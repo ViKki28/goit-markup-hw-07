@@ -1,12 +1,11 @@
 /* Tablet */
 
 @media screen and (min-width: 768px) {
+  /* Header */
   .container {
     max-width: 768px;
-    padding-bottom: 18px;
+    /* padding-bottom: 18px; */
   }
-
-  /* Header */
 
   .menu {
     display: flex;
@@ -81,6 +80,9 @@
     gap: 24px;
     flex-basis: calc((100% - 2 * 24px) / 2);
   }
+  .aa {
+    margin-bottom: 72px;
+  }
   .menu-adv {
     display: flex;
     flex-wrap: wrap;
@@ -98,7 +100,6 @@
     align-items: center;
   }
   .employees-card {
-    margin-bottom: 84px;
     display: grid;
     gap: 24px;
     flex-basis: calc((100% - 2 * 24px) / 2);
@@ -107,7 +108,7 @@
   /* Section 5 */
 
   .container-sm {
-    width: 552px;
+    max-width: 552px;
   }
   .customers-list {
     display: flex;
@@ -167,6 +168,11 @@
 
 /* Від 0 до 1199 */
 @media screen and (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0 16px;
+  }
+
   /* Section 2 */
 
   .advantages-icon {
@@ -196,6 +202,9 @@
   }
   .text-team {
     margin-bottom: 8px;
+  }
+  .zz {
+    margin-bottom: 64px;
   }
 
   /* Section 5 */

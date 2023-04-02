@@ -44,17 +44,22 @@ button {
 
 .section {
   background-size: cover;
+  padding-bottom: 96px;
 }
-
-/*==== Header ==== */
-
 .container {
   width: 100%;
-  padding: 24px 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
+/*==== Header ==== */
+
 .header-container {
   display: flex;
   justify-content: space-between;
+}
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-header {
   display: none;
@@ -96,7 +101,7 @@ button {
   background-color: var(--backraund-btn-hover-color);
   border-radius: 2px;
   content: '';
-  bottom: -3px;
+  bottom: -13px;
   left: 0;
   width: 100%;
 }
@@ -405,12 +410,9 @@ button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 72px;
+  padding-top: 96px;
 }
-.menu-item {
-  width: 100%;
-  margin-bottom: 72px;
-}
+
 .menu-item:nth-child(odd) {
   flex-wrap: wrap;
   margin-right: 24px;
@@ -444,13 +446,13 @@ button {
   margin-bottom: 72px;
   text-align: center;
 }
-.section-team {
+/* .section-team {
   padding-right: 20px;
   padding-left: 20px;
-}
+} */
 .section-team {
   background-color: var(--backraund-buttons-team);
-  padding-top: 72px;
+  padding-top: 96px;
 }
 .employees-tablet {
   width: 100%;
@@ -499,8 +501,7 @@ button {
 /* Section 5 */
 
 .customers {
-  padding-top: 72px;
-  padding-bottom: 72px;
+  padding-top: 96px;
 }
 .customers-item {
   width: calc((100% - 32px) / 3);
@@ -551,8 +552,8 @@ button {
 
 .footer {
   background: var(--main-title-color);
-  padding-top: 72px;
-  padding-bottom: 72px;
+  padding-top: 96px;
+
   margin-left: auto;
 }
 .footer-items {
@@ -629,7 +630,7 @@ button {
   background-color: var(--main-title-color);
   color: #ffffff;
   padding: 8px 16px;
-  width: 300px;
+  /* width: 300px; */
   margin-bottom: 16px;
 }
 .form-footer::placeholder {
