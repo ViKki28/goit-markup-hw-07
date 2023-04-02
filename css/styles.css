@@ -101,7 +101,7 @@ button {
   background-color: var(--backraund-btn-hover-color);
   border-radius: 2px;
   content: '';
-  bottom: -13px;
+  bottom: -9px;
   left: 0;
   width: 100%;
 }
@@ -253,9 +253,8 @@ button {
   }
 }
 .hero-title {
-  width: 320px;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 1.11;
   color: var(--hero-title-color);
   margin-left: auto;
@@ -402,10 +401,6 @@ button {
 
 /*==== Section 2 ====*/
 
-.advantages {
-  width: 736px;
-  height: 312px;
-}
 .advantages-container {
   display: flex;
   flex-direction: column;
